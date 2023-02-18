@@ -8,6 +8,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteStatement;
 import com.maryatul.kamus.model.ModelKamus;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import static android.provider.BaseColumns._ID;
 import static com.maryatul.kamus.database.DatabaseContract.KamusColumns.DESKRIPSI;
 import static com.maryatul.kamus.database.DatabaseContract.KamusColumns.KATA;
@@ -51,7 +53,7 @@ public class KamusHelper {
     public ArrayList<ModelKamus> selectAll(boolean language){
         checkLanguage(language);
 
-        Cursor cursor = database.query(table,null,null,null,null,null,_ID+ " ASC",null);
+        Cursor cursor = database.query(table, null, null, null, null, null, "kata ASC", null);
         cursor.moveToFirst();
         ArrayList<ModelKamus> arrayList = new ArrayList<>();
         ModelKamus kamus;
@@ -82,6 +84,66 @@ public class KamusHelper {
         }
         cursor.close();
         return arrayList;
+    }
+
+    public ArrayList<ModelKamus> selectByKataBinarySearch(String kata, boolean language) {
+        ArrayList<ModelKamus> items = selectAll(language);
+
+        if (kata.equals("")) {
+            return items;
+        }
+
+        ArrayList<ModelKamus> filteredItems = new ArrayList<>();
+
+        while (!items.isEmpty()) {
+            int index = binarySearch(items, kata);
+
+            if (index == -1) {
+                break;
+            }
+
+            ModelKamus itemToBeAdded = items.get(index);
+
+            items.remove(index);
+            filteredItems.add(itemToBeAdded);
+        }
+
+        Collections.sort(filteredItems, new Comparator<ModelKamus>() {
+            @Override
+            public int compare(ModelKamus o1, ModelKamus o2) {
+                String kata1 = o1.getKata();
+                String kata2 = o2.getKata();
+
+                return kata1.compareTo(kata2);
+            }
+        });
+
+        return filteredItems;
+    }
+
+    private int binarySearch(ArrayList<ModelKamus> items, String keyword) {
+        int left = 0;
+        int right = items.size() - 1;
+
+        while (left <= right) {
+            int mid = (left + right) / 2;
+
+            String kata = items.get(mid).getKata();
+
+            if (kata.startsWith(keyword)) {
+                return mid;
+            }
+
+            int compare = kata.compareTo(keyword);
+
+            if (compare < 0) {
+                left = mid + 1;
+            } else if (compare > 0) {
+                right = mid - 1;
+            }
+        }
+
+        return -1;
     }
 
     public long insert(ModelKamus kamus, boolean language){
