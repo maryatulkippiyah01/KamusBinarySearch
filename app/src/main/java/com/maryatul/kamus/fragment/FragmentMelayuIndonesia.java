@@ -85,7 +85,7 @@ public class FragmentMelayuIndonesia extends Fragment {
 
     private void initDataById(String query) {
         kamusHelper.open();
-        listKamus = kamusHelper.selectByKata(String.valueOf(query), false);
+        listKamus = kamusHelper.selectByKataBinarySearch(String.valueOf(query), false);
         kamusHelper.close();
 
         adapter.replaceItem(listKamus);
