@@ -42,7 +42,7 @@ public class FragmentMelayuIndonesia extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        getActivity().setTitle(getResources().getString(R.string.indonesia_melayu));
+        getActivity().setTitle(getResources().getString(R.string.melayu_indonesia));
     }
 
     @Override
