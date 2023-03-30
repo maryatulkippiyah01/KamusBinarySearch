@@ -22,7 +22,7 @@ acap kali	Selalu
 acu	Cetakan kueh
 acup	Tenggelam sedikit daripada muka air
 acum	Asut
-acah	Gerakan seperi menerkam 
+acah	Gerakan seperi menerkam
 aci	Gandaran roda
 aci	Saudara perempuan
 ahad	Minggu
@@ -100,7 +100,7 @@ angkak	kue berisi daging
 angkut	Angkat
 angkut-angkut	Sarangulat dari tanah
 angkosa	Kosa gajah
-angkup	Penjepit 
+angkup	Penjepit
 angkuh	Tiada kuat
 angkah	Teragak
 angkit	Bangkit
@@ -110,7 +110,7 @@ angin	Udara
 angin-angin	Fentilasi Udara
 angguk	Mengangguk
 anggur	Buah Anggur
-anggun	Rupa cantik 
+anggun	Rupa cantik
 apabila	Tatkala mana
 april	Bulan keempat dalam kalender masehi
 apak	Bau yang tidak enak
@@ -167,7 +167,7 @@ ambar	Tawar
 ambang	Kayu melintang bagi pintu
 ambon	Nama pisang
 ampas	Sisa pati
-ampar	Bentang 
+ampar	Bentang
 ampu	Mengampu
 ampun	Maaf
 ampai	Gantungan Baju
@@ -258,7 +258,7 @@ batung 	Sejenis siput
 batuk	Penyakit tenggorokan
 batuk kering	Batuk yang berdengking
 batuk kokok	Batuk sesak
-batik	Kain berbunga 
+batik	Kain berbunga
 batil	Pandu atau penimbang jong
 batin	Gelaran kampung diantara orang melayu berpangkat
 baja	Besi baja
@@ -285,7 +285,7 @@ badi	Terkena suna
 badik	Sejenis pisau senjata yang kecil
 bara 	Arang yang bernyala
 barat	Sebelah matahari masuk setelah magrib
-barat daya	Antara barat tepat dengan selatan
+ barat daya	Antara barat tepat dengan selatan
 barat laut	Antara barat dengan utara
 barang	Benda
 barang kali	Boleh jadi
@@ -316,7 +316,7 @@ bangat	Segera
 bangar	Sejenis bau tidak sedap
 bangau	Sejenis unggas kaki panjang
 bangun	Bangkit
-bangunan	Rumah 
+bangunan	Rumah
 bangai	Kebiaran
 baki	Yang tinggal
 baka	Asal keturunan bagi benda yang bernyawa
@@ -358,7 +358,7 @@ balairung	Balai dalam istana
 baling	Senget
 balik	Pulang
 banang	Besar
-banir	Pangkal akar 
+banir	Pangkal akar
 bawa	Angkat pergi ketempat lain
 bawa mulut	Berbicara kesana kesini
 bawaan	Keadaan,gaya
@@ -378,12 +378,12 @@ bahang	Uap panas
 baham	Makan dengan keadaan gelojoh
 bahan	Pukul
 bahu	Anggota antara leher dengan pangkal lengan
-bau	Rasa  
+bau	Rasa
 baya	Sebaya
 bidara	Sejenis pohon
 berbelit	Berbilit
 berbual	Bercakap-bercakap kosong
-bertih	Padi yang di goreng 
+bertih	Padi yang di goreng
 beras	Isi padi
 beranak	Bersaling
 beresut	Masam muka
@@ -505,7 +505,7 @@ boreh	Beras dibasuh kemudian digiling jadi bedak
 bokek	Tiada kuat
 bogok	Gemuk
 bogi	Sejenis kereta kenaikan empat roda ditarik oleh kuda
-bogel	Telanjang 
+bogel	Telanjang
 bolang-baling	Pusing angin
 bulak	Bukan
 bulur	Kelaparan
@@ -567,7 +567,7 @@ catur	Nama sejenis permainan
 cacat	Rusak
 cacar	Sakit ketumbuh
 cacar air	Sakit akan akan ketumbuh tetapi tiada bahaya
-cacing	Ulat yang panjang 
+cacing	Ulat yang panjang
 cadar	Kain alas tidur
 cadang	Cadangan
 carut	Bilang kotor
@@ -839,7 +839,7 @@ hama	Binatang kecil
 hamun	Maki
 hamis	Bau seperti bau itik,kambing
 hawa	Udara
-hawar	Musim penyakit binatang 
+hawar	Musim penyakit binatang
 haus	Dahaga
 hayuk	Ayo
 hanyut	Berjalan dibawa oleh air mengalir
@@ -855,8 +855,8 @@ hadam	Hancur makanan dalam perut
 hulu balang	Orang-orang termasyur gagah
 haluan	Tujuan
 halimun	Ilmu boleh menjadikan dirinya tidak nampak
-hamba sahaya	Orang-orang yang ditebus 
-hempedal	Ampela 
+hamba sahaya	Orang-orang yang ditebus
+hempedal	Ampela
 hempas	Campak kebawah
 hampang	Ringan
 hempalas	Daun yang kesat buat penggosok supaya licin
@@ -915,7 +915,7 @@ lebih	Mengatas pada bilangan atau kadar
 lebai	Lebai
 lebik	Bunyi dipukul ditengah belakang atau benda lembut jatuh ketanah
 labbaik	Menurut perintah
-leta	Rusak 
+leta	Rusak
 letas	Bunyi cemati
 letas-letus	Bunyi meletup kecil-kecil
 letap	Bunyi patah ranting atau dahan kecil
@@ -926,7 +926,7 @@ lerai	Ceraikan orang berkelahi
 las	Batu penggilap
 lesap	Hilang ghaib
 lesu	Lemah-lemah rasa badan
-lesung	Tempat menumbuk 
+lesung	Tempat menumbuk
 lesi	Kutuk
 loghat	Bahasa
 lengas	Keluar air lekit daripada batang atau kulit
@@ -963,7 +963,7 @@ nasi	Beras yang dimasak dengan air
 nangoi	Ibu babi
 napuh	Rusa kecil
 nakal	Tiada tahu
-naga	Ular yang besar dalam lautan 
+naga	Ular yang besar dalam lautan
 nanar	Gila
 nanah	Darah yang menjadi busuk
 nahak	Hendak sangat
