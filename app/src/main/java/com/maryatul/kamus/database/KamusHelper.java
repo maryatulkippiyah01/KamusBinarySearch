@@ -53,7 +53,7 @@ public class KamusHelper {
     public ArrayList<ModelKamus> selectAll(boolean language){
         checkLanguage(language);
 
-        Cursor cursor = database.query(table, null, null, null, null, null, "kata ASC", null);
+        Cursor cursor = database.query(table, null, null, null, null, null, null, null);
         cursor.moveToFirst();
         ArrayList<ModelKamus> arrayList = new ArrayList<>();
         ModelKamus kamus;
